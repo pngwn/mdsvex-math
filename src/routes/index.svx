@@ -1,0 +1,28 @@
+<svelte:head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css" integrity="sha384-zTROYFVGOfTw7JV7KUu8udsvW2fx4lWOsCEDqhBreBwlHI4ioVRtmIvEThzJHGET" crossorigin="anonymous">
+</svelte:head>
+
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+## Math
+
+Lift($L$) can be determined by Lift Coefficient ($C_L$) like the following
+equation.
+
+<div class="math math-display">
+  L = \frac 1  2 \rho v^2 S C_L
+</div>
+
+<div class="math math-display">
+\forall x \in X, \quad \exists y \leq \epsilon
+</div>
+
+<div class="math math-display">
+k_{2+1} = n^2 + k_n^2 - k_{2-1}
+</div>
+
+<div class="math math-display">
+\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+</div>
