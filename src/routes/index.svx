@@ -11,18 +11,33 @@
 Lift($L$) can be determined by Lift Coefficient ($C_L$) like the following
 equation.
 
-<div class="math math-display">
+```math
   L = \frac 1  2 \rho v^2 S C_L
-</div>
+```
 
-<div class="math math-display">
+<!-- ```math
+% \f is defined as #1f(#2) using the macro
+\f\relax{x} = \int_{-0}^\infty
+			\f\hat\xi\,e^{2 \pi i \xi x}
+			\,d\xi
+``` -->
+
+```math
 \forall x \in X, \quad \exists y \leq \epsilon
-</div>
+```
 
-<div class="math math-display">
-k_{2+1} = n^2 + k_n^2 - k_{2-1}
-</div>
+```math
+k_{n+1} = n^2 + k_n^2 - k_{n-1}
+```
 
-<div class="math math-display">
+```math
 \cos (2\theta) = \cos^2 \theta - \sin^2 \theta
-</div>
+```
+
+```math
+\lim\limits_{x \to \infty} \exp(-x) = 0
+```
+
+```math
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+```
